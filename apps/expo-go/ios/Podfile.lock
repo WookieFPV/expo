@@ -31,7 +31,7 @@ PODS:
   - EXNotifications/Tests (0.31.1):
     - ExpoModulesCore
     - ExpoModulesTestCore
-  - Expo (53.0.5):
+  - Expo (53.0.7):
     - DoubleConversion
     - ExpoModulesCore
     - glog
@@ -60,7 +60,7 @@ PODS:
     - Yoga
   - ExpoAppleAuthentication (7.2.4):
     - ExpoModulesCore
-  - ExpoAsset (11.1.4):
+  - ExpoAsset (11.1.5):
     - ExpoModulesCore
   - ExpoAudio (0.4.4):
     - ExpoModulesCore
@@ -97,19 +97,19 @@ PODS:
     - ExpoModulesCore
   - ExpoDomWebView (0.1.4):
     - ExpoModulesCore
-  - ExpoFileSystem (18.1.8):
+  - ExpoFileSystem (18.1.9):
     - ExpoModulesCore
-  - ExpoFileSystem/Tests (18.1.8):
+  - ExpoFileSystem/Tests (18.1.9):
     - ExpoModulesCore
     - ExpoModulesTestCore
-  - ExpoFont (13.3.0):
+  - ExpoFont (13.3.1):
     - ExpoModulesCore
   - ExpoGL (15.1.5):
     - ExpoModulesCore
     - ReactCommon/turbomodule/core
   - ExpoHaptics (14.1.4):
     - ExpoModulesCore
-  - ExpoHead (5.0.4):
+  - ExpoHead (5.0.5):
     - ExpoModulesCore
   - ExpoImage (2.1.6):
     - ExpoModulesCore
@@ -473,7 +473,6 @@ PODS:
   - hermes-engine/inspector (0.79.2)
   - hermes-engine/inspector_chrome (0.79.2)
   - hermes-engine/Public (0.79.2)
-  - JKBigInteger (0.0.6)
   - libavif/core (0.11.1)
   - libavif/libdav1d (0.11.1):
     - libavif/core
@@ -2983,7 +2982,6 @@ DEPENDENCIES:
   - GoogleDataTransport
   - GoogleUtilities
   - hermes-engine (from `../../../react-native-lab/react-native/packages/react-native/sdks/hermes-engine/hermes-engine.podspec`)
-  - JKBigInteger (from `vendored/common/JKBigInteger.podspec.json`)
   - lottie-react-native (from `../../../node_modules/lottie-react-native`)
   - MBProgressHUD (~> 1.2.0)
   - nanopb
@@ -3268,8 +3266,6 @@ EXTERNAL SOURCES:
   hermes-engine:
     :podspec: "../../../react-native-lab/react-native/packages/react-native/sdks/hermes-engine/hermes-engine.podspec"
     :tag: hermes-2025-03-03-RNv0.79.0-bc17d964d03743424823d7dd1a9f37633459c5c5
-  JKBigInteger:
-    :podspec: vendored/common/JKBigInteger.podspec.json
   lottie-react-native:
     :path: "../../../node_modules/lottie-react-native"
   RCT-Folly:
@@ -3455,9 +3451,9 @@ SPEC CHECKSUMS:
   EXJSONUtils: 1d3e4590438c3ee593684186007028a14b3686cd
   EXManifests: 2916c0982e95ada805b23f21bc89b3ad69ee47b2
   EXNotifications: eb08abae61f4eba2dcd9460d6b9e5bd38371db98
-  Expo: 5058e64e340f0bc2280d97e02e7acf0c57b1743d
+  Expo: 28d2e49ab68e9823a8c452b2ad125b76a6209bac
   ExpoAppleAuthentication: 7e358fcbcbacb7685cddb0bbeede0acd677e58f6
-  ExpoAsset: cac9909bd4c502b54b87b4e7495121c1194b3c5b
+  ExpoAsset: 3ea3275cca6a7793b3d36fbf1075c590f803fbcb
   ExpoAudio: 004327190053b219b463ee159a5b18f4652246d9
   ExpoBackgroundFetch: 76c48b3cd9a4ee46e5267614a30fac804de6f33e
   ExpoBackgroundTask: fdbdb8915935ebbfd42a5eb221fe18f68b1a0cdc
@@ -3473,11 +3469,11 @@ SPEC CHECKSUMS:
   ExpoDevice: 7a961caede6638aa0d37d0d3aa884ab957a2e3d3
   ExpoDocumentPicker: d1bb0c63fc686a74455bd7c2cd54545fa6231b66
   ExpoDomWebView: d97348ddd1e1981e30f052d58a4bcb7bfbb737f5
-  ExpoFileSystem: 3bd7e34a164a9093c23b5a7b690efab8138ebf8e
-  ExpoFont: bee4b78bcec8f68b6b9bee74ed1bf4fb0515d4b4
+  ExpoFileSystem: ff47f2208da552fbee872dedc4e74fb7c6ac5907
+  ExpoFont: 312c73403bbd4f98e1d6a5330641a56292583cd2
   ExpoGL: 8f7f43291e400621ef9aeb7af347816c2051ddc7
   ExpoHaptics: 68c215e070f660e0a29c45dcda4f60eeff08aefb
-  ExpoHead: b12df35f108fdecfc570bf1e2d42073c0c72b079
+  ExpoHead: b8583978ab218d5f3b594b41ad74f605d39d91bd
   ExpoImage: a5b427e52ee7a04921081e59aac5eef7a8134ba0
   ExpoImageManipulator: 7096d6bf874c0a0a649f60733fef8a99c4ad0fe2
   ExpoImagePicker: d2fff488a0738343a3cc21e98544ee9feafaa0e6
@@ -3532,7 +3528,6 @@ SPEC CHECKSUMS:
   GoogleMaps: 8939898920281c649150e0af74aa291c60f2e77d
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
   hermes-engine: 23516557c1f8951dee5152917a6027e52f3347f3
-  JKBigInteger: 5c72131974815e969c0782c41e3452f1bbe5619f
   libavif: 84bbb62fb232c3018d6f1bab79beea87e35de7b7
   libdav1d: 23581a4d8ec811ff171ed5e2e05cd27bad64c39f
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
@@ -3645,6 +3640,6 @@ SPEC CHECKSUMS:
   Yoga: c758bfb934100bb4bf9cbaccb52557cee35e8bdf
   ZXingObjC: 8898711ab495761b2dbbdec76d90164a6d7e14c5
 
-PODFILE CHECKSUM: b43e8fd68aecb83928c36a03bb11448210e1072a
+PODFILE CHECKSUM: 9f104a55d90568cbeff5ed1bb052a935a9042f4f
 
 COCOAPODS: 1.16.2

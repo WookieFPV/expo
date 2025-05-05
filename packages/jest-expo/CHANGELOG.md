@@ -10,6 +10,12 @@
 
 ### 💡 Others
 
+## 53.0.4 — 2025-05-02
+
+### 🐛 Bug fixes
+
+- Add ExpoFontUtils mock ([#36585](https://github.com/expo/expo/pull/36585) by [@brentvatne](https://github.com/brentvatne))
+
 ## 53.0.3 — 2025-05-01
 
 _This version does not introduce any user-facing changes._
