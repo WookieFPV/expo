@@ -482,7 +482,6 @@
   },
   "buildCacheProvider": {
     "description": "Enable downloading cached builds from remote.",
-    "additionalProperties": false,
     "anyOf": [
       {
         "type": "string",
@@ -1835,7 +1834,6 @@
       },
       "buildCacheProvider": {
         "description": "@deprecated This field is not longer marked as experimental and will be removed in a future release, use the `buildCacheProvider` field instead.",
-        "additionalProperties": false,
         "meta": {
           "deprecated": true
         },
